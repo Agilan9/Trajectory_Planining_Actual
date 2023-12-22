@@ -40,7 +40,7 @@ def push(x, y):
     x[-1:] = y
     return x
 
-for i in range (len(numpy_array)):
+for i in range (len(numpy_array)): #this is the main code
 
     push(mvag, numpy_array[i][0:Json['N']])
     
